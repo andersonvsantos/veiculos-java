@@ -39,12 +39,18 @@ public class Veiculo {
     }
 
     /**
-     * mostrarNome e mostrarAno imprime direto no console o nome e ano do veiculo.
+     * @see mostrarNome
+     * imprime direto no console o nome do veiculo.
      */
 
     public void mostrarNome() {
         System.out.println(this.nome);
     }
+
+    /**
+     * @see mostrarAno
+     * imprime direto no console o ano do veiculo.
+     */
 
     public void mostrarAno() {
         System.out.println(this.ano);
